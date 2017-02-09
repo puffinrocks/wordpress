@@ -3,7 +3,7 @@ version: '2'
 services:
 
     main:
-        image: puffinrocks/wordpress:4.7.2
+        image: puffinrocks/wordpress:latest
         depends_on:
             - db
         ports:

@@ -1,4 +1,4 @@
-FROM wordpress:4.7.2
+FROM wordpress:latest
 
 ENV VERSION=$WORDPRESS_VERSION
 
