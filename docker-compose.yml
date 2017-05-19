@@ -25,12 +25,12 @@ services:
         tmpfs:
             - /tmp
             #- /run - can't do that due to https://github.com/docker-library/php/issues/250
-    
+
     db:
         image: puffinrocks/mariadb
         environment:
             MYSQL_ROOT_PASSWORD: wordpress
-        volumes: 
+        volumes:
             - db_data:/var/lib/mysql
 
 volumes:
